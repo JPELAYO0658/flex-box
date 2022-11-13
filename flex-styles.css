@@ -1,0 +1,22 @@
+.box {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+.box h1 {
+  border: 1px solid green;
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  color:#ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.flex-container {
+  height: 70px;
+  width: 600px;
+  border: 1px dashed red;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
