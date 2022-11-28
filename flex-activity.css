@@ -1,5 +1,5 @@
 .flex-container {
-  height: 200px;
+  height: 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -9,12 +9,13 @@
 .box {
   height: 50px;
   width: 50px;
-  border: 2px dashed red;
+  /* border: 2px dashed red; */
 }
 .box h1 {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   font-family: sans-serif;
   color: white;
   text-align: center;
   font-weight: lighter;
+  margin: 0;
 }

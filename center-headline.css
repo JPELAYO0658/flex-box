@@ -1,0 +1,23 @@
+.flex-container {
+  height: 130px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px dashed red;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background: #FF00FF;
+  height: 120px;
+  width: 400px;
+  border: 1px dashed green;
+}
+.box h1 {
+  font-family: sans-serif;
+  color: black;
+  text-align: center;
+  border: 1px solid blue;
+  padding-top: 1rem;
+  background-color: yellow;
+}
